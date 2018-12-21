@@ -11,8 +11,8 @@
             Prediction prediction = Prediction(watch_addr);
             
             // fill your blocktestUserId and your prediction values below
-            string memory _blockTESTUserId = "";
-            string memory _value = "";
+            string memory _blockTESTUserId = "13b35b987b5203c4fe3aaf8799d8b7226b68670f";
+            string memory _value = "10043.02";
             
             // calling the main contract function to save the value
             prediction.predict(_blockTESTUserId, _value);
